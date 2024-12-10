@@ -1,0 +1,6 @@
+{
+    "watch": ["src"],
+    "ext": "ts",
+    "ignore": ["dist"],
+    "exec": "node --env-file .env.local --loader ts-node/esm src/app.ts"
+  }
